@@ -1,0 +1,44 @@
+﻿<Page x:Class="Marathon_skills_2016.Pages.PageMain"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Marathon_skills_2016.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageMain">
+
+    <Grid>
+        <StackPanel Orientation="Vertical" Height="220"
+                        VerticalAlignment="Stretch">
+            <Button Name="BtnIW"
+                        BorderThickness="5"
+                        Content="Я хочу стать бегуном"
+                        Width="250" Height="40" Margin="10" 
+                        FontFamily="Arial"
+                        FontSize="14"
+                        Click="BtnIW_Click"/>
+            <Button Name="BtnSp"
+                        BorderThickness="5"
+                        Content="Я хочу стать спонсором бегуна"
+                        Width="250" Height="40" Margin="10" 
+                        FontFamily="Arial"
+                        FontSize="14"
+                        Click="BtnSp_Click"/>
+            <Button Name="BtnSob"
+                        BorderThickness="5"
+                        Content="Я хочу узнать больше о событии"
+                        Width="250" Height="40" Margin="10" 
+                        FontFamily="Arial"
+                        FontSize="14"
+                        Click="BtnSob_Click"/>
+            <Button Name="BtnLog" HorizontalAlignment="Right"
+                        BorderThickness="5"
+                        Content="Login"
+                        Width="70" Height="30" Margin="10" 
+                        FontFamily="Arial"
+                        FontSize="14"
+                        Click="BtnLog_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>

@@ -1,0 +1,59 @@
+﻿<Window x:Class="Marathon_skills_2016.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Marathon_skills_2016"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical"
+                    VerticalAlignment="Center" Background="White">
+            <StackPanel Orientation="Vertical" Height="150"
+                        VerticalAlignment="Center" Background="Gray">
+                <TextBlock Text="MARATHON SKILLS 2016" 
+                           Width="320"
+                           Height="30"
+                           Margin="10"
+                           FontFamily="verdana"
+                           FontSize="25"
+                           VerticalAlignment="Center"
+                           Foreground="White"/>
+                <TextBlock Text="Москва, Россия" 
+                           Width="130"
+                           Height="30"
+                           Margin="1"
+                           FontFamily="verdana"
+                           FontSize="15"
+                           VerticalAlignment="Center"
+                           Foreground="White"/>
+                <TextBlock Text="среда 21 октября 2016" 
+                           Width="180"
+                           Height="15"
+                           Margin="5"
+                           FontFamily="verdana"
+                           FontSize="15"
+                           VerticalAlignment="Center"
+                           Foreground="White"/>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Height="250"
+                        VerticalAlignment="Center">
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Height="50"
+                        VerticalAlignment="Center" Background="Gray">
+                <TextBlock Text="18 дней 8 часов и 17 минут до старта марафона!" 
+                           Width="360"
+                           Height="30"
+                           Margin="10"
+                           FontFamily="verdana"
+                           FontSize="14"
+                           VerticalAlignment="Center"
+                           Foreground="White"/>
+            </StackPanel>
+        </StackPanel>
+        <Frame Grid.Row="1" 
+               Name="FrmMain" 
+               NavigationUIVisibility="Automatic">
+        </Frame>
+    </Grid>
+</Window>
